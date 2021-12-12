@@ -1,5 +1,0 @@
-testing if the parent subfolder will be pushed as well as this file
-
-```{language}
-print("Hello World");
-```
