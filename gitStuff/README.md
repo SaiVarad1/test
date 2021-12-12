@@ -15,3 +15,5 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     ** This tells it to push all commits to the remote branch Master)
     (-u saves settings so you can just use git push next time)
 * Making this change in the Remote Repo
+
+* CONFLICTING CHANGE 1 
