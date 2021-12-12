@@ -25,6 +25,7 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 
 ## Reverting to previous commit:
 * git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
+* or just git revert address 
 
 ## Git errors encountered and Solutions:
 * Another git process seems to be running in this repository, e.g.
@@ -38,3 +39,5 @@ remove the file manually to continue.
 ## Branching
 * To delete a file on only one branch, commit afterwards
 * To save edits after switching to a previous commit, create a new branch using `git switch -c branchName`
+    ### Merging
+        * to merge specific files from a branch, use git checkout branchName path
