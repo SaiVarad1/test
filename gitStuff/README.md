@@ -14,4 +14,6 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     * push to remote by using git push -u origin master
     ** This tells it to push all commits to the remote branch Master)
     (-u saves settings so you can just use git push next time)
-* Making this change in the Remote Repo
+
+
+    * Making this change in the Remote Repo (conflicting change made locally without pulling first)
