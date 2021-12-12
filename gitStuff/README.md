@@ -26,3 +26,11 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 ## Reverting to previous commit:
 * git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
 
+# Git errors encountered and Solutions:
+* Another git process seems to be running in this repository, e.g.
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+
+        Solution: rm -f .git/index.lock
+
