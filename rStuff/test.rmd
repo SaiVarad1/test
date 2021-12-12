@@ -1,5 +1,0 @@
-Testing if this R file is uploaded 
-
-```{r}
-print("Hello World Stuff");
-```
