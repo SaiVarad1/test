@@ -16,4 +16,10 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     (-u saves settings so you can just use git push next time)
 
 
-    * Making this change in the Remote Repo (conflicting change made locally without pulling first)
+
+    * Making this change in the local Repo (conflicting change made locally without pulling first)
+
+* Making this change in the Remote Repo
+
+* CONFLICTING CHANGE 1 
+
