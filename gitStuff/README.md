@@ -27,6 +27,7 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 * git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
 * or just git revert address NOTE: revert only reverses changes of specified commit
 * git reset --hard address resets to the specified commit.
+* git log --oneline to view entire log
 
 ## Git errors encountered and Solutions:
 * Another git process seems to be running in this repository, e.g.
@@ -42,3 +43,4 @@ remove the file manually to continue.
 * To save edits after switching to a previous commit, create a new branch using `git switch -c branchName`
     ### Merging
         * to merge specific files from a branch, use git checkout branchName path
+
