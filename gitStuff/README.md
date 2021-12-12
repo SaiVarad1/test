@@ -23,3 +23,6 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 
 * CONFLICTING CHANGE 1 
 
+## Reverting to previous commit:
+* git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
+
