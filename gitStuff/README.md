@@ -25,7 +25,8 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 
 ## Reverting to previous commit:
 * git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
-* or just git revert address 
+* or just git revert address NOTE: revert only reverses changes of specified commit
+* git reset --hard address resets to the specified commit.
 
 ## Git errors encountered and Solutions:
 * Another git process seems to be running in this repository, e.g.
