@@ -24,6 +24,13 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 * git reset --hard address resets to the specified commit.
 * git log --oneline to view entire log
 
+## Git Diff command
+https://www.techiedelight.com/find-differences-between-two-commits-git/
+
+* git diff <commit-id><commit-id>
+
+
+
 ## Git errors encountered and Solutions:
 * Another git process seems to be running in this repository, e.g.
 are terminated then try again. If it still fails, a git process
