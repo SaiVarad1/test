@@ -27,7 +27,19 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 ## Git Diff command
 https://www.techiedelight.com/find-differences-between-two-commits-git/
 
-* git diff <commit-id><commit-id>
+* `git diff <commit-id><commit-id>`
+* `git diff HEAD^ HEAD` or `git diff HEAD^..HEAD`
+    * Lists out all changes since last commit 
+    * `git diff HEAD^..`
+* specified file comparison
+    * `git diff HEAD^ HEAD -./file`
+* ## Listing out names of changed files
+  
+    * ### `git diff HEAD~5..HEAD --name-status`
+        * `HEAD~5` refers to the last 5 commits
+    * ### `git diff HEAD~5 HEAD --stat` or  `git diff HEAD~5 HEAD --compact-summary`
+    * ### To view changes between last commit and uncommitted edits: 
+        * ###    `git diff HEAD^ --stat`
 
 
 
