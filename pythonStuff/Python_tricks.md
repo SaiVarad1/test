@@ -27,8 +27,13 @@ Can choose specific cell range for pandas as df using `pd.read_excel(filepath,sh
 `df["new_col"]=pd.cut(df["orig_col"], bins, labels=group_list, include_lowest=TRUE)`
 
 We can see that four doors are the most common type. We can also use the ".idxmax()" method to calculate for us the most common type automatically:
-df['num-of-doors'].value_counts().idxmax()
+`df['num-of-doors'].value_counts().idxmax()`
 
+### Viewing unique values in a df
+`df[col].unique()`
+
+## Pearson Coeff
+`pearson_coef, p_value = stats.pearsonr(df['wheel-base'], df['price'])`
 ## NumPy
 * Equally spaced array  
 `np.linspace(1,10,3)`
