@@ -18,6 +18,8 @@ Can choose specific cell range for pandas as df using `pd.read_excel(filepath,sh
    *  `df[['col1','col2']]`
    * `df[['col1','col2']].describe()`
 * `df.info`
+* ### Setting index of dataframe using a column
+    * `pandas.DataFrame.set_index`
 ### Binning a Column of a Df
 1. Create bins intervals  
     `bins=np.linspace(min(df["orig_col"]), max(df["orig_col"], number_of_intervals)`
