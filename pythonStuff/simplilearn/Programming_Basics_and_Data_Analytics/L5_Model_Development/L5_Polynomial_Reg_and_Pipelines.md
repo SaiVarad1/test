@@ -1,15 +1,17 @@
 # 5.5 Polynomial Regression and Pipelines
 
 1. Calculate Polynomial of the 3rd Order  
-    `f=np.plyfit(x,y,3) `  
-    `p=np.polydl(f)`
+    `f=np.plyfit(x,y,3) ` for single variable  
+    `p=np.poly1d(f)`  
+    `print (p)`  
+        *1.557x^3+204.8x^2+8965x+1.37\*10^5*
 
 
 ## Pre-Processing
 ### Polynomial Regression with More than One Dimension
 Use preprocessing library  
     `from sklearn.preprocessing import PolynomialFeatures`    
-    `pr=PolynomialFeatures(degree=2)  `
+    `pr=PolynomialFeatures(degree=2)  `  
     `pr.fit_transform([1,2],include_bias=False)`
 ### Normalizing each feature simultaneously
 `from sklearn.preprocessing import StandardScaler`    
