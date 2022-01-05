@@ -39,5 +39,7 @@ We can see that four doors are the most common type. We can also use the ".idxma
 ## NumPy
 * Equally spaced array  
 `np.linspace(1,10,3)`
+## Generating range of strings
+`years=list(map(str,range(1980,2014)))`
 
 
