@@ -22,7 +22,14 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
 * git revert --no-commit 02119cdbdb4db640fc51ab0681bdafbc3bcd7756..HEAD
 * or just git revert address NOTE: revert only reverses changes of specified commit
 * git reset --hard address resets to the specified commit.
-* git log --oneline to view entire log
+    * git reset --hard HEAD^
+        * And if you actually want to completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit 
+* git reset --soft HEAD^
+    * undos act of commiting, leaving everything else intact
+* **git reset HEAD^**
+    * If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files) intact
+* Source: https://stackoverflow.com/questions/2845731/how-to-uncommit-my-last-commit-in-git
+* `git log --oneline` to view entire log
 
 ## Git Diff command
 https://www.techiedelight.com/find-differences-between-two-commits-git/
