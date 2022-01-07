@@ -30,10 +30,12 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     * undos act of commiting, but leaves previous files staged
 * git reset HEAD^
     * If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files) intact (undos both commit and staging)
-
 * Source: https://stackoverflow.com/questions/2845731/how-to-uncommit-my-last-commit-in-git
 * `git log --oneline` to view entire log
-
+## Can't push large files of Previous Commits
+* delete file locally and commit the change
+* soft reset to remote origin master commit
+* squash commits
 ## Git Diff command
 https://www.techiedelight.com/find-differences-between-two-commits-git/
 
