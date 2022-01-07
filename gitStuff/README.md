@@ -16,7 +16,9 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     (-u saves settings so you can just use git push next time)
 
 
-* Making this change in the Remote Repo
+## .gitignore file
+* can create a .gitignore at the highest level to not track files
+* eg: in the `.gitignore` file, write `*.csv` to ignore all csv files in subdirectories
 
 ## Reverting to previous commit:
 
