@@ -34,10 +34,6 @@ Tutorial Link: https://www.youtube.com/watch?v=DVRQoVRzMIY
     * If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files) intact (undos both commit and staging)
 * Source: https://stackoverflow.com/questions/2845731/how-to-uncommit-my-last-commit-in-git
 * `git log --oneline` to view entire log
-## Can't push large files of Previous Commits
-* delete file locally and commit the change
-* soft reset to remote origin master commit
-* squash commits
 ## Git Diff command
 https://www.techiedelight.com/find-differences-between-two-commits-git/
 
@@ -64,7 +60,10 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 
         Solution: rm -f .git/index.lock
-
+## Can't push large files of Previous Commits
+* delete file locally and commit the change
+* soft reset to remote origin master commit `git reset --soft HEAD~9` # to reset to 9 commits ago
+* squash commits
 
 ## Branching
 * To delete a file on only one branch, commit afterwards
