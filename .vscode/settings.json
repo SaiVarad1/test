@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./pythonStuff/harvardAICS50Stuff/Project0/Degrees/degrees"
+    ]
+}
